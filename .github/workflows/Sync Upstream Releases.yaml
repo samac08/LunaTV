@@ -21,8 +21,8 @@ jobs:
   sync-releases:
     runs-on: ubuntu-latest
     env:
-      UPSTREAM_OWNER: wya0
-      UPSTREAM_REPO: Selene
+      UPSTREAM_OWNER: MoonTechLab
+      UPSTREAM_REPO: LunaTV
       PER_PAGE: "100"
     steps:
       - name: Checkout repo (needed for GitHub context)
